@@ -3,6 +3,10 @@
 # **Introduction**
 
 In this assignment, we embark on a journey of frequent dataset mining using Apache Kafka, focusing on the extensive Amazon dataset. Our goal is to employ two powerful algorithms, Apriori and PCY, renowned for their efficacy in mining frequent itemsets. By leveraging the distributed nature of Apache Kafka, we aim to efficiently process and analyze vast volumes of data, uncovering valuable insights and patterns within the Amazon dataset.
+To download the  Amazon meta data you can access the link below which directly downloads a 12 GB compressed file which after extraction converts to 105 GB.
+
+**Download Link**: https://datarepo.eng.ucsd.edu/mcauley_group/data/amazon_v2/metaFiles/All_Amazon_Meta.json.gz
+
 
 # **Analysis**
 
