@@ -76,9 +76,9 @@ This approach leverages Kafka for data streaming, the Apriori algorithm for iden
 
  ![](Aspose.Words.e21d313a-ba46-42bb-aab2-ac4a37fe1ad3.003.png)
 
-**Output:
+**Output:**
 
-![](Aspose.Words.e21d313a-ba46-42bb-aab2-ac4a37fe1ad3.004.png)**
+![](Aspose.Words.e21d313a-ba46-42bb-aab2-ac4a37fe1ad3.004.png)
 ================================================================
 
 # **MongoDB**
