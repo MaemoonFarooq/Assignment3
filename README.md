@@ -81,7 +81,7 @@ This approach leverages Kafka for data streaming, the Apriori algorithm for iden
 ![](Aspose.Words.e21d313a-ba46-42bb-aab2-ac4a37fe1ad3.004.png)**
 ================================================================
 
-` `**MongoDB**
+# **MongoDB**
 
 MongoDB is used for data storage. Three collections have been made to store individual data produced for each algorithm.
 
