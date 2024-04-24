@@ -44,8 +44,7 @@ The code defines the PCY Algorithm class to handle the PCY algorithm, including 
 
 This approach leverages Kafka for data streaming, the PCY algorithm for efficient frequent itemset mining, and MongoDB for data storage, resulting in a streamlined process for analyzing and storing patterns from large transaction datasets.
 
-
-![](Aspose.Words.e21d313a-ba46-42bb-aab2-ac4a37fe1ad3.001.png)
+![PCY](https://github.com/MaemoonFarooq/Assignment3/assets/128331365/e622c2e0-0b25-4a85-83f7-09dd338f8093)
 
 
 
@@ -57,7 +56,8 @@ The Apriori Algorithm class is designed to handle the Apriori algorithm, includi
 
 This approach leverages Kafka for data streaming, the Apriori algorithm for identifying frequent item sets, and MongoDB for data storage, providing a structured and efficient process for analyzing large transaction datasets and extracting valuable insights.
 
-![](Aspose.Words.e21d313a-ba46-42bb-aab2-ac4a37fe1ad3.002.png)
+![Apriori](https://github.com/MaemoonFarooq/Assignment3/assets/128331365/471043af-492b-4c44-aded-aa23c533cde4)
+
 
 
 
@@ -73,12 +73,13 @@ This approach leverages Kafka for data streaming, the Apriori algorithm for iden
 
  Overall, this approach allows the code to process data streams in real-time, prioritize recent events, and efficiently manage and analyze customer behavior patterns. This can provide significant benefits for businesses looking to understand their customers better and tailor their offerings accordingly.
 
+![Custom](https://github.com/MaemoonFarooq/Assignment3/assets/128331365/15d919ef-1344-452c-865f-f7b76327af21)
 
- ![](Aspose.Words.e21d313a-ba46-42bb-aab2-ac4a37fe1ad3.003.png)
 
 **Output:**
 
-![](Aspose.Words.e21d313a-ba46-42bb-aab2-ac4a37fe1ad3.004.png)
+![custom_output](https://github.com/MaemoonFarooq/Assignment3/assets/128331365/fae5f479-0bc5-463d-9519-68180ce70d9a)
+
 ================================================================
 
 # **MongoDB**
