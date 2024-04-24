@@ -62,20 +62,20 @@ This approach leverages Kafka for data streaming, the Apriori algorithm for iden
 
 
 
-# **Custom Algorithm**
-#
-#
-# The code uses a sliding window approach combined with timestamps and a decaying factor to efficiently analyze data streams and generate real-time insights. The sliding window maintains a record of the most recent events within a specified size (1,000 events in this case) to focus on current trends and customer behaviors. By pairing each event with a timestamp, the script can apply the decaying factor to weigh older events less heavily and give more importance to newer events. This method helps identify emerging patterns and avoid outdated data from influencing the results.
-#
-# In addition to the sliding window, the code utilizes a Kafka consumer to read incoming data from a Kafka topic, with automatic deserialization of JSON-formatted messages for easier handling. As each message arrives, the script extracts relevant information such as `asin`, `title`, and `also\_buy` products, and updates the `also\_buy\_counter` with the frequencies of products bought together. By adjusting the `also\_buy\_counter` with the decaying factor, the code ensures that the most relevant and recent data influences the recommendations.
-#
-# The `get\_frequent\_items` function identifies frequent items based on a specified support threshold, helping the script generate product recommendations for the current product. This provides valuable insights into customer preferences and potential product pairings, which can be beneficial for targeted marketing and inventory management. Once the recommendations are generated, the script inserts them into a MongoDB collection, making them easily accessible for further analysis.
-#
-# Overall, this approach allows the code to process data streams in real-time, prioritize recent events, and efficiently manage and analyze customer behavior patterns. This can provide significant benefits for businesses looking to understand their customers better and tailor their offerings accordingly.
-#
-#
-# ![](Aspose.Words.e21d313a-ba46-42bb-aab2-ac4a37fe1ad3.003.png)
-#
+ **Custom Algorithm**
+
+
+ The code uses a sliding window approach combined with timestamps and a decaying factor to efficiently analyze data streams and generate real-time insights. The sliding window maintains a record of the most recent events within a specified size (1,000 events in this case) to focus on current trends and customer behaviors. By pairing each event with a timestamp, the script can apply the decaying factor to weigh older events less heavily and give more importance to newer events. This method helps identify emerging patterns and avoid outdated data from influencing the results.
+
+ In addition to the sliding window, the code utilizes a Kafka consumer to read incoming data from a Kafka topic, with automatic deserialization of JSON-formatted messages for easier handling. As each message arrives, the script extracts relevant information such as `asin`, `title`, and `also\_buy` products, and updates the `also\_buy\_counter` with the frequencies of products bought together. By adjusting the `also\_buy\_counter` with the decaying factor, the code ensures that the most relevant and recent data influences the recommendations.
+
+ The `get\_frequent\_items` function identifies frequent items based on a specified support threshold, helping the script generate product recommendations for the current product. This provides valuable insights into customer preferences and potential product pairings, which can be beneficial for targeted marketing and inventory management. Once the recommendations are generated, the script inserts them into a MongoDB collection, making them easily accessible for further analysis.
+
+ Overall, this approach allows the code to process data streams in real-time, prioritize recent events, and efficiently manage and analyze customer behavior patterns. This can provide significant benefits for businesses looking to understand their customers better and tailor their offerings accordingly.
+
+
+ ![](Aspose.Words.e21d313a-ba46-42bb-aab2-ac4a37fe1ad3.003.png)
+
 **Output:
 
 ![](Aspose.Words.e21d313a-ba46-42bb-aab2-ac4a37fe1ad3.004.png)**
